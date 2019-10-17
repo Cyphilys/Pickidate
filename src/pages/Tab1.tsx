@@ -18,6 +18,9 @@ import {
 import { book, build, colorFill, grid } from 'ionicons/icons';
 import React from 'react';
 import './Tab1.css';
+import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
+
+
 
 const Tab1: React.FC = () => {
   return (
@@ -32,7 +35,7 @@ const Tab1: React.FC = () => {
           <img src="/assets/shapes.svg" alt="" />
           <IonCardHeader>
             <IonCardSubtitle>Get Started</IonCardSubtitle>
-            <IonCardTitle>Welcome to Ionic</IonCardTitle>
+            <IonCardTitle>Welcome to Pickidate</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
             <p>
