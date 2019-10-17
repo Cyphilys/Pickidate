@@ -18,7 +18,6 @@ import {
 import { book, build, colorFill, grid } from 'ionicons/icons';
 import React from 'react';
 import './Tab1.css';
-import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
 
 
 
